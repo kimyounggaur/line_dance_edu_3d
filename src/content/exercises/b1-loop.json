@@ -1,0 +1,11 @@
+{
+  "id": "b1-loop",
+  "target": {
+    "kind": "block",
+    "id": "B1-stepTouch"
+  },
+  "bpm": 60,
+  "loop": true,
+  "countInBeats": 4,
+  "startFoot": "R"
+}

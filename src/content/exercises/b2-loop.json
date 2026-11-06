@@ -1,0 +1,11 @@
+{
+  "id": "b2-loop",
+  "target": {
+    "kind": "block",
+    "id": "B2-vine"
+  },
+  "bpm": 60,
+  "loop": true,
+  "countInBeats": 4,
+  "startFoot": "R"
+}

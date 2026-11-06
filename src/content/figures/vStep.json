@@ -1,0 +1,90 @@
+{
+  "id": "vStep",
+  "nameKo": "V스텝",
+  "nameEn": "V Step",
+  "aliases": [
+    "브이 스텝",
+    "v step",
+    "아웃 아웃 인 인"
+  ],
+  "beats": 4,
+  "mirrorable": true,
+  "level": 4,
+  "tags": [
+    "diagonal"
+  ],
+  "events": [
+    {
+      "t": 0,
+      "foot": "R",
+      "action": "step",
+      "to": [
+        0.7,
+        0.5
+      ],
+      "dir": "diagFwd",
+      "cueKo": "아웃",
+      "cueEn": "out",
+      "descKo": "{M}을 {MD} 앞 대각선으로 딛는다(아웃)"
+    },
+    {
+      "t": 1,
+      "foot": "L",
+      "action": "step",
+      "to": [
+        -0.7,
+        0.5
+      ],
+      "dir": "diagFwd",
+      "cueKo": "아웃",
+      "cueEn": "out",
+      "descKo": "{M}을 {MD} 앞 대각선으로 딛는다(아웃, 두 발 벌림)"
+    },
+    {
+      "t": 2,
+      "foot": "R",
+      "action": "step",
+      "to": [
+        0.2,
+        0
+      ],
+      "dir": "diagBack",
+      "cueKo": "인",
+      "cueEn": "in",
+      "descKo": "{M}을 가운데 제자리로 가져온다(인)"
+    },
+    {
+      "t": 3,
+      "foot": "L",
+      "action": "step",
+      "to": [
+        -0.2,
+        0
+      ],
+      "dir": "diagBack",
+      "cueKo": "인",
+      "cueEn": "in",
+      "descKo": "{M}을 {S} 옆 제자리로 가져온다(인)"
+    }
+  ],
+  "evidence": "weak",
+  "sources": [
+    {
+      "sourceId": "ck-beginner-list",
+      "ref": "키워드 V step 2/20곡 (Strummingbird, Coco Na Na — 둘 다 32카운트 · 4벽)",
+      "supports": [
+        "name",
+        "usage"
+      ],
+      "note": "정의는 폴더 밖 공개 표기로 교차 확인(부록 C.2)"
+    }
+  ],
+  "verification": {
+    "status": "draft",
+    "openQuestions": [
+      "정의가 맞는가 — 아웃 · 아웃 · 인 · 인, 4카운트 온박",
+      "벌림 폭과 전진 거리 (현재: 폭 1.4u, 앞 0.5u)",
+      "발끝 방향 — 정면 / 살짝 바깥 (현재: 정면)"
+    ]
+  }
+}

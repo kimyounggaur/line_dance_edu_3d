@@ -1,0 +1,70 @@
+{
+  "id": "sideTouch",
+  "nameKo": "스텝터치",
+  "nameEn": "Step Touch",
+  "aliases": [
+    "스텝 터치",
+    "사이드 터치",
+    "step touch"
+  ],
+  "beats": 2,
+  "mirrorable": true,
+  "level": 1,
+  "tags": [
+    "travel-side"
+  ],
+  "events": [
+    {
+      "t": 0,
+      "foot": "R",
+      "action": "step",
+      "to": [
+        1.2,
+        0
+      ],
+      "dir": "side",
+      "cueKo": "옆",
+      "cueEn": "side",
+      "descKo": "{M}을 {MD} 옆으로 딛는다"
+    },
+    {
+      "t": 1,
+      "foot": "L",
+      "action": "touch",
+      "to": [
+        0.8,
+        0
+      ],
+      "dir": "together",
+      "cueKo": "터치",
+      "cueEn": "touch",
+      "descKo": "{M} 앞꿈치를 {S} 옆에 찍는다(체중 없음)"
+    }
+  ],
+  "evidence": "weak",
+  "sources": [
+    {
+      "sourceId": "ltl-glossary",
+      "ref": "용어표 35행 TOUCH (1박, 방향은 안무에 따름)",
+      "supports": [
+        "beats"
+      ]
+    },
+    {
+      "sourceId": "ck-beginner-list",
+      "ref": "키워드 touch 14/20곡",
+      "supports": [
+        "usage"
+      ],
+      "note": "'스텝터치'라는 이름의 행은 폴더에 없다. 이름과 '옆으로' 기본형은 자체 정의(2.2)"
+    }
+  ],
+  "verification": {
+    "status": "draft",
+    "openQuestions": [
+      "터치 자리 — 지지발 바로 옆이 맞는가, 약간 앞에 찍는가 (현재: 바로 옆, 0.4u 간격)",
+      "보폭 1.0u(약 36 cm)가 적절한가",
+      "현장에서 부르는 이름 — '스텝터치' / '스텝 터치' / '사이드 터치'"
+    ]
+  }
+}

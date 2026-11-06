@@ -1,0 +1,104 @@
+{
+  "id": "jazzBoxQuarter",
+  "nameKo": "재즈박스 1/4턴",
+  "nameEn": "Jazz Box 1/4 turn",
+  "aliases": [
+    "재즈박스 쿼터턴",
+    "jazz box quarter turn"
+  ],
+  "beats": 4,
+  "mirrorable": true,
+  "level": 7,
+  "tags": [
+    "turn",
+    "cross"
+  ],
+  "events": [
+    {
+      "t": 0,
+      "foot": "R",
+      "action": "step",
+      "to": [
+        -0.5,
+        0.75
+      ],
+      "dir": "crossFront",
+      "cueKo": "크로스",
+      "cueEn": "cross",
+      "descKo": "{M}을 {S} 앞으로 교차해 딛는다"
+    },
+    {
+      "t": 1,
+      "foot": "L",
+      "action": "step",
+      "to": [
+        -0.2,
+        -0.4
+      ],
+      "dir": "back",
+      "cueKo": "뒤",
+      "cueEn": "back",
+      "descKo": "{M}을 뒤로 딛는다"
+    },
+    {
+      "t": 2,
+      "foot": "R",
+      "action": "step",
+      "to": [
+        0.6,
+        -0.6
+      ],
+      "dir": "forward",
+      "turn": 90,
+      "cueKo": "턴",
+      "cueEn": "quarter turn",
+      "descKo": "{TD}으로 1/4 돌며 {M}을 딛는다(옆→앞)"
+    },
+    {
+      "t": 3,
+      "foot": "L",
+      "action": "step",
+      "to": [
+        0.6,
+        -0.2
+      ],
+      "dir": "together",
+      "cueKo": "모아",
+      "cueEn": "together",
+      "descKo": "{M}을 {S} 옆에 모은다"
+    }
+  ],
+  "evidence": "strong",
+  "sources": [
+    {
+      "sourceId": "vm-stepvideos",
+      "ref": "기초 강습 12번 Jazz Box 1/4 turn",
+      "supports": [
+        "name",
+        "order"
+      ]
+    },
+    {
+      "sourceId": "vm-programme",
+      "ref": "커리큘럼 15번 (Jazz box 1/4 turn)",
+      "supports": [
+        "usage"
+      ]
+    },
+    {
+      "sourceId": "ltl-glossary",
+      "ref": "용어표 16행 JAZZ BOX — 방향 전환은 선택(각도 미고정)",
+      "supports": [
+        "direction"
+      ]
+    }
+  ],
+  "verification": {
+    "status": "draft",
+    "openQuestions": [
+      "회전 시점 — 2카운트 / 3카운트 (현재: 3카운트)",
+      "4카운트 — 모으기 / 앞으로 (현재: 모으기)",
+      "회전하는 걸음의 착지 자리가 자연스러운가"
+    ]
+  }
+}

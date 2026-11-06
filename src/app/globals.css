@@ -1,0 +1,147 @@
+@import 'tailwindcss';
+@source "../";
+
+/* 색 규칙 (설계문서 6.9): 왼발 파랑 · 오른발 주황 · 회전 보라 · 골반 초록 · 검수 전 초안 노랑.
+   바탕은 연습실 비닐 바닥처럼 차가운 회색, 글자는 짙은 남색 잉크. 꾸밈 그림자 · 그라데이션은 쓰지 않는다. */
+@theme {
+  --color-paper: #f4f5f7;
+  --color-surface: #ffffff;
+  --color-ink: #172033;
+  --color-ink-2: #2c3649;
+  --color-muted: #586276;
+  --color-line: #d3d8e0;
+  --color-line-strong: #a9b1bf;
+  --color-floor: #e5e8ed;
+  --color-grid: #c9cfd8;
+  --color-foot-l: #2563eb;
+  --color-foot-l-tint: #dde8fd;
+  --color-foot-r: #ea580c;
+  --color-foot-r-tint: #fde6d8;
+  --color-turn: #7c3aed;
+  --color-turn-tint: #ede5fd;
+  --color-pelvis: #16a34a;
+  --color-draft: #f59e0b;
+  --color-draft-tint: #fef3d6;
+  --color-danger: #c81e1e;
+  --color-danger-tint: #fde4e4;
+  --color-ok: #15803d;
+
+  --font-sans: 'IBM Plex Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', system-ui, sans-serif;
+  --font-display: 'Do Hyeon', 'IBM Plex Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+
+  --radius-ui: 10px;
+}
+
+:root {
+  --btn-h: 44px;
+  --ui-scale: 1;
+  color-scheme: light;
+}
+
+.large-text {
+  --btn-h: 56px;
+  --ui-scale: 1.4;
+}
+
+html,
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  font-feature-settings: 'tnum' 1;
+}
+
+.large-text body,
+body.large-text {
+  font-size: 18px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-ink);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.scaled {
+  font-size: calc(1em * var(--ui-scale));
+}
+
+@keyframes ld-blink {
+  0%,
+  100% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.ld-blink {
+  animation: ld-blink 1.1s ease-in-out infinite;
+}
+
+@keyframes ld-pop {
+  from {
+    transform: scale(0.92);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.ld-pop {
+  animation: ld-pop 160ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ld-blink,
+  .ld-pop {
+    animation: none !important;
+  }
+  * {
+    scroll-behavior: auto !important;
+  }
+}
+
+/* 레슨 본문 */
+.prose-ld p {
+  margin: 0 0 0.85em;
+  max-width: 38em;
+}
+.prose-ld p:last-child {
+  margin-bottom: 0;
+}
+.prose-ld strong {
+  font-weight: 700;
+  color: var(--color-ink);
+}
+
+/* 숫자 입력의 스핀 버튼 숨김 */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "R-A16",
+    "nameKo": "첫 연결",
+    "blocks": [
+      "B1-stepTouch",
+      "B2-vine"
+    ],
+    "walls": 1,
+    "rotation": "none",
+    "level": 6
+  },
+  {
+    "id": "R-B32",
+    "nameKo": "네 동작 연결",
+    "blocks": [
+      "B1-stepTouch",
+      "B2-vine",
+      "B4-vStep",
+      "B3-jazzBox"
+    ],
+    "walls": 1,
+    "rotation": "none",
+    "level": 6
+  },
+  {
+    "id": "R-C32",
+    "nameKo": "코스터 포함 연결",
+    "blocks": [
+      "B2-vine",
+      "B4-vStep",
+      "B3-jazzBox",
+      "B5-coaster"
+    ],
+    "walls": 1,
+    "rotation": "none",
+    "level": 6
+  },
+  {
+    "id": "R-E16",
+    "nameKo": "첫 4벽",
+    "blocks": [
+      "B1-stepTouch",
+      "B6-vineQuarter"
+    ],
+    "walls": 4,
+    "rotation": "CCW",
+    "level": 7
+  },
+  {
+    "id": "R-D32",
+    "nameKo": "졸업 루틴",
+    "blocks": [
+      "B2-vine",
+      "B4-vStep",
+      "B5-coaster",
+      "B7-jazzQuarter"
+    ],
+    "walls": 4,
+    "rotation": "CW",
+    "level": 7
+  }
+]

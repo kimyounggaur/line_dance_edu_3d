@@ -1,0 +1,105 @@
+{
+  "id": "vine",
+  "nameKo": "그레이프바인",
+  "nameEn": "Grapevine (Vine)",
+  "aliases": [
+    "바인",
+    "vine",
+    "grapevine"
+  ],
+  "beats": 4,
+  "mirrorable": true,
+  "level": 2,
+  "tags": [
+    "travel-side"
+  ],
+  "events": [
+    {
+      "t": 0,
+      "foot": "R",
+      "action": "step",
+      "to": [
+        1.2,
+        0
+      ],
+      "dir": "side",
+      "cueKo": "옆",
+      "cueEn": "side",
+      "descKo": "{M}을 {MD} 옆으로 딛는다"
+    },
+    {
+      "t": 1,
+      "foot": "L",
+      "action": "step",
+      "to": [
+        1.5,
+        -0.75
+      ],
+      "dir": "crossBehind",
+      "cueKo": "뒤",
+      "cueEn": "behind",
+      "descKo": "{M}을 {S} 뒤로 교차해 딛는다"
+    },
+    {
+      "t": 2,
+      "foot": "R",
+      "action": "step",
+      "to": [
+        2.4,
+        0
+      ],
+      "dir": "side",
+      "cueKo": "옆",
+      "cueEn": "side",
+      "descKo": "{M}을 다시 {MD} 옆으로 딛는다"
+    },
+    {
+      "t": 3,
+      "foot": "L",
+      "action": "touch",
+      "to": [
+        2,
+        0
+      ],
+      "dir": "together",
+      "cueKo": "터치",
+      "cueEn": "touch",
+      "descKo": "{M} 앞꿈치를 {S} 옆에 찍는다(체중 없음)"
+    }
+  ],
+  "evidence": "strong",
+  "sources": [
+    {
+      "sourceId": "ltl-glossary",
+      "ref": "용어표 39행 VINE (4박)",
+      "supports": [
+        "name",
+        "beats",
+        "direction"
+      ]
+    },
+    {
+      "sourceId": "vm-stepvideos",
+      "ref": "기초 강습 1번 Grapevine",
+      "supports": [
+        "name",
+        "order"
+      ]
+    },
+    {
+      "sourceId": "ck-beginner-list",
+      "ref": "키워드 grapevine 13/20곡",
+      "supports": [
+        "usage"
+      ]
+    }
+  ],
+  "verification": {
+    "status": "draft",
+    "openQuestions": [
+      "4카운트의 기본 마무리 — 터치 / 모으기 / 스커프 (현재: 터치)",
+      "뒤 교차의 깊이와 넘기는 폭이 자연스러운가 (현재: 뒤 0.75u, 지지발 너머 0.3u)",
+      "화면 이름 — '그레이프바인' / '바인' (현재: 그레이프바인(바인))"
+    ]
+  }
+}

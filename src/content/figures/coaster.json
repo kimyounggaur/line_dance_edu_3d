@@ -1,0 +1,104 @@
+{
+  "id": "coaster",
+  "nameKo": "코스터스텝",
+  "nameEn": "Coaster Step",
+  "aliases": [
+    "코스터",
+    "coaster step"
+  ],
+  "beats": 2,
+  "mirrorable": true,
+  "level": 5,
+  "tags": [
+    "syncopated"
+  ],
+  "events": [
+    {
+      "t": 0,
+      "foot": "R",
+      "action": "step",
+      "to": [
+        0.2,
+        -0.5
+      ],
+      "dir": "back",
+      "contact": "ball",
+      "pelvisFollowFB": 0.6,
+      "cueKo": "뒤",
+      "cueEn": "back",
+      "descKo": "{M}을 뒤로 딛는다(앞꿈치)"
+    },
+    {
+      "t": 0.5,
+      "foot": "L",
+      "action": "step",
+      "to": [
+        -0.2,
+        -0.5
+      ],
+      "dir": "together",
+      "contact": "ball",
+      "pelvisFollowFB": 0.6,
+      "cueKo": "모아",
+      "cueEn": "together",
+      "descKo": "{M}을 {S} 옆에 모은다(앞꿈치)"
+    },
+    {
+      "t": 1,
+      "foot": "R",
+      "action": "step",
+      "to": [
+        0.2,
+        0
+      ],
+      "dir": "forward",
+      "cueKo": "앞",
+      "cueEn": "forward",
+      "descKo": "{M}을 앞으로 딛는다"
+    }
+  ],
+  "evidence": "strong",
+  "sources": [
+    {
+      "sourceId": "ltl-glossary",
+      "ref": "용어표 8행 COASTER STEP (2박, back · forward)",
+      "supports": [
+        "name",
+        "beats",
+        "direction"
+      ]
+    },
+    {
+      "sourceId": "vm-stepvideos",
+      "ref": "기초 강습 19번 Coaster Step",
+      "supports": [
+        "name",
+        "order"
+      ]
+    },
+    {
+      "sourceId": "vm-programme",
+      "ref": "커리큘럼 23번(싱코페이션 표시 Y) · 24번(표시 없음)",
+      "supports": [
+        "timing",
+        "usage"
+      ],
+      "note": "24번은 느린 변형일 가능성"
+    },
+    {
+      "sourceId": "ck-beginner-list",
+      "ref": "키워드 coaster 2/20곡",
+      "supports": [
+        "usage"
+      ]
+    }
+  ],
+  "verification": {
+    "status": "draft",
+    "openQuestions": [
+      "기본 타이밍이 1 & 2인가 (느린 온박 변형과 구분)",
+      "연습 블록에 제자리 2걸음을 넣는 구성이 수업에 맞는가",
+      "보폭과 접지 (현재: 뒤 0.5u, 뒤 · 모으기는 앞꿈치)"
+    ]
+  }
+}

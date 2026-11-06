@@ -1,0 +1,18 @@
+{
+  "id": "r-d32",
+  "target": {
+    "kind": "routine",
+    "id": "R-D32"
+  },
+  "bpm": 88,
+  "loop": false,
+  "countInBeats": 8,
+  "startFoot": "R",
+  "repeats": 4,
+  "view": {
+    "followFacing": false
+  },
+  "highlight": [
+    "facing"
+  ]
+}

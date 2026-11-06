@@ -1,0 +1,265 @@
+{
+  "sources": [
+    {
+      "id": "ltl-glossary",
+      "site": "Love To Linedance",
+      "title": "Glossary — 기본 용어 · 스텝",
+      "url": "https://lovetolinedance.com.au/glossary",
+      "reuse": "사이트 All Rights Reserved, 용어 PDF는 G. T. Elliott 저작권 표시. 공개 라이선스 미확인 → 용어 정의 원문 미사용, 링크만",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "vm-stepvideos",
+      "site": "Val Myers",
+      "title": "Step videos — 기초 스텝 강습",
+      "url": "https://www.vmyers.com/stepvideos/",
+      "reuse": "개인 반복 시청 안내. 재배포 · 파생 제작 · 모델 학습 허가 미확인 → 영상 임베드 · 내려받기 · 캡처 금지, 링크만",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "vm-programme",
+      "site": "Val Myers",
+      "title": "Beginner programme — 초보 커리큘럼",
+      "url": "https://www.vmyers.com/programme/",
+      "reuse": "프로그램 다운로드 · 인쇄 안내는 있으나 재배포 · 파생 제작 허가 미확인 → 링크만",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "ck-beginner-list",
+      "site": "CopperKnob",
+      "title": "Beginner step sheets — 입문 스텝시트 목록",
+      "url": "https://www.copperknob.co.uk/lists/VC7937K/beginner-step-sheets",
+      "reuse": "약관상 개인 비상업적 일시 열람만 제한적으로 허용, 복제 · 공개 전시 · 미러링 제한 → 스텝시트 본문 미사용, 링크만",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "ld-level-guide",
+      "site": "Linedancer",
+      "title": "난이도 가이드 (2014)",
+      "url": "https://www.linedancerweb.com/Migrated%20scriptpdfs/28/00051328.pdf",
+      "reuse": "저작권 표시, 재사용 · 3D 재현을 허용하는 공개 라이선스 미확인 → 링크만",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "ld-stepsheets",
+      "site": "Linedancer",
+      "title": "스텝시트 (입문 708개의 메타데이터)",
+      "url": "https://www.linedancerweb.com/",
+      "reuse": "저작권 표시, 공개 라이선스 미확인 → 메타데이터 색인과 링크만",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "istd-outlines",
+      "site": "ISTD",
+      "title": "DanceSport syllabus outlines — 공식 교육과정 문서",
+      "url": "https://www.istd.org/examinations/dancesport-syllabus-outlines/",
+      "reuse": "약관 7항(실러버스 자료 공유 · 복제 불허), 8항(이미지 내려받기 · 복제 금지) → 내용 미사용, 링크만",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "termsLinks": [
+    {
+      "label": "CopperKnob 이용약관",
+      "url": "https://www.copperknob.co.uk/terms"
+    },
+    {
+      "label": "ISTD 이용약관",
+      "url": "https://www.istd.org/terms-and-conditions/"
+    }
+  ],
+  "reviewVideos": [
+    {
+      "order": 1,
+      "title": "Grapevine",
+      "url": "https://www.youtube.com/watch?v=DCKtErwFSIk",
+      "figureIds": [
+        "vine"
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Grapevine 1/4 turn",
+      "url": "https://www.youtube.com/watch?v=AVBrfTQdPIc",
+      "figureIds": [
+        "vineQuarter"
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Jazz Box",
+      "url": "https://www.youtube.com/watch?v=ArjJOZIYR0s",
+      "figureIds": [
+        "jazzBox",
+        "jazzBoxTogether"
+      ]
+    },
+    {
+      "order": 12,
+      "title": "Jazz Box 1/4 turn",
+      "url": "https://www.youtube.com/watch?v=2tLpyO8bCZU",
+      "figureIds": [
+        "jazzBoxQuarter",
+        "jazzBoxQuarterOn2"
+      ]
+    },
+    {
+      "order": 19,
+      "title": "Coaster Step",
+      "url": "https://www.youtube.com/watch?v=Xp__9e08YHM",
+      "figureIds": [
+        "coaster"
+      ]
+    },
+    {
+      "order": 22,
+      "title": "Weave",
+      "url": "https://www.youtube.com/watch?v=iZjpbvOQY7o",
+      "figureIds": []
+    }
+  ],
+  "crossChecks": [
+    {
+      "text": "스텝터치 — '한 걸음 딛고 반대 발을 터치'하는 쌍이 옆 방향(첫째 시트), 앞 · 대각선 · 뒤 방향(둘째 시트)으로 쓰임. 두 시트 모두 'step touch'라는 이름은 붙이지 않음",
+      "figureIds": [
+        "sideTouch",
+        "sideTouchFwd"
+      ],
+      "links": [
+        {
+          "label": "공개 스텝시트 표기 예 1",
+          "url": "https://www.linedance.com/dance/60782/nashville-stickup"
+        },
+        {
+          "label": "공개 스텝시트 표기 예 2",
+          "url": "https://www.linedance.com/dance/132655/stepping-side-by-side"
+        }
+      ]
+    },
+    {
+      "text": "그레이프바인 = 옆 · 뒤 · 옆 + 마무리",
+      "figureIds": [
+        "vine"
+      ],
+      "links": [
+        {
+          "label": "Wikipedia — Glossary of dance moves",
+          "url": "https://en.wikipedia.org/wiki/Glossary_of_dance_moves"
+        }
+      ]
+    },
+    {
+      "text": "코스터스텝 = 1 & 2 (뒤 · 모으기 · 앞), 온박으로 느리게 하는 변형",
+      "figureIds": [
+        "coaster"
+      ],
+      "links": [
+        {
+          "label": "라인댄스 용어 정리",
+          "url": "https://roots-boots.net/ldance/definitions.html"
+        }
+      ]
+    },
+    {
+      "text": "재즈박스 = 재즈 스퀘어(같은 동작의 두 이름). 볼룸의 박스 스텝은 교차가 없는 다른 동작",
+      "figureIds": [
+        "jazzBox"
+      ],
+      "links": [
+        {
+          "label": "Wikipedia — Jazz box",
+          "url": "https://en.wikipedia.org/wiki/Jazz_box"
+        }
+      ]
+    },
+    {
+      "text": "호주에서는 재즈박스를 Box Step이라고도 부름",
+      "figureIds": [
+        "jazzBox"
+      ],
+      "links": [
+        {
+          "label": "라인댄스 용어 정리",
+          "url": "https://www.estes-eastes.org/ldance/definitions.html"
+        }
+      ]
+    },
+    {
+      "text": "재즈박스의 교차가 1카운트 또는 2카운트에 올 수 있음",
+      "figureIds": [
+        "jazzBox"
+      ],
+      "links": [
+        {
+          "label": "기초 스텝 정리 문서",
+          "url": "https://www.sctexas.org/files/library/27378/basic-line-dance-steps.pdf"
+        }
+      ]
+    },
+    {
+      "text": "재즈박스의 4번째 걸음은 앞으로 또는 안무에 따른 다른 걸음",
+      "figureIds": [
+        "jazzBox",
+        "jazzBoxTogether"
+      ],
+      "links": [
+        {
+          "label": "라인댄스 스텝 정리 글",
+          "url": "https://ck-kandykane.blogspot.com/2014/10/syllabus-steps-actions-for-line-dancing.html"
+        }
+      ]
+    },
+    {
+      "text": "V스텝 = 아웃 · 아웃 · 인 · 인 (대각선으로 나갔다 가운데로)",
+      "figureIds": [
+        "vStep"
+      ],
+      "links": [
+        {
+          "label": "공개 스텝시트 표기 예",
+          "url": "https://www.copperknob.co.uk/stepsheets/133579"
+        },
+        {
+          "label": "표기법 문서",
+          "url": "https://www.kickit.to/Kickish.pdf"
+        }
+      ]
+    },
+    {
+      "text": "재즈박스 1/4턴 — 2카운트에 도는 표기",
+      "figureIds": [
+        "jazzBoxQuarter",
+        "jazzBoxQuarterOn2"
+      ],
+      "links": [
+        {
+          "label": "공개 스텝시트 표기 예",
+          "url": "https://linedance.com/dance/64617/da-da-de-de-da"
+        }
+      ]
+    },
+    {
+      "text": "재즈박스 1/4턴 — 3카운트에 도는 표기",
+      "figureIds": [
+        "jazzBoxQuarter"
+      ],
+      "links": [
+        {
+          "label": "공개 스텝시트 표기 예",
+          "url": "https://www.linedance.com/dance/82867/let-it-be"
+        }
+      ]
+    },
+    {
+      "text": "그레이프바인 1/4턴 — 3카운트에 돌며 앞으로",
+      "figureIds": [
+        "vineQuarter"
+      ],
+      "links": [
+        {
+          "label": "공개 스텝시트 표기 예",
+          "url": "https://linedancerweb.com/viewpdf.php?dance=2592"
+        }
+      ]
+    }
+  ]
+}

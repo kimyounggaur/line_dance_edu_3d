@@ -1,0 +1,14 @@
+{
+  "id": "b5-loop",
+  "target": {
+    "kind": "block",
+    "id": "B5-coaster"
+  },
+  "bpm": 60,
+  "loop": true,
+  "countInBeats": 4,
+  "startFoot": "R",
+  "highlight": [
+    "and"
+  ]
+}

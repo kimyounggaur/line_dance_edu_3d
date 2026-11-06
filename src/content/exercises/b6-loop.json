@@ -1,0 +1,11 @@
+{
+  "id": "b6-loop",
+  "target": {
+    "kind": "block",
+    "id": "B6-vineQuarter"
+  },
+  "bpm": 72,
+  "loop": true,
+  "countInBeats": 8,
+  "startFoot": "R"
+}

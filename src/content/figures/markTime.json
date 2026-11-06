@@ -1,0 +1,52 @@
+{
+  "id": "markTime",
+  "nameKo": "제자리 스텝",
+  "nameEn": "Step in place",
+  "aliases": [
+    "제자리 걷기",
+    "마크 타임",
+    "step in place"
+  ],
+  "beats": 2,
+  "mirrorable": true,
+  "level": 0,
+  "tags": [
+    "in-place"
+  ],
+  "events": [
+    {
+      "t": 0,
+      "foot": "R",
+      "action": "step",
+      "to": [
+        0.2,
+        0
+      ],
+      "dir": "together",
+      "cueKo": "스텝",
+      "cueEn": "step",
+      "descKo": "{M}을 {S} 옆 제자리에 딛는다"
+    },
+    {
+      "t": 1,
+      "foot": "L",
+      "action": "step",
+      "to": [
+        -0.2,
+        0
+      ],
+      "dir": "inPlace",
+      "cueKo": "스텝",
+      "cueEn": "step",
+      "descKo": "{M}을 제자리에서 딛는다"
+    }
+  ],
+  "evidence": "medium",
+  "sources": [],
+  "verification": {
+    "status": "draft",
+    "openQuestions": [
+      "제자리 걷기 구령('스텝 · 스텝')과 화면 이름('제자리 스텝')이 수업에서 쓰는 말과 맞는가"
+    ]
+  }
+}

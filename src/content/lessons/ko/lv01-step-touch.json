@@ -1,0 +1,70 @@
+{
+  "id": "lv01-step-touch",
+  "level": 1,
+  "title": "스텝터치",
+  "summary": "옆으로 딛고, 반대 발은 찍기만.",
+  "goals": [
+    "디딤과 터치의 차이를 안다",
+    "터치한 발이 다시 움직인다는 것을 몸으로 익힌다",
+    "60~100 BPM에서 8카운트를 끊기지 않고 반복한다"
+  ],
+  "prerequisites": [
+    "lv00-ready"
+  ],
+  "estimatedMinutes": 10,
+  "release": 1,
+  "sections": [
+    {
+      "kind": "text",
+      "markdown": "스텝터치는 **옆으로 한 걸음 딛고(체중을 옮기고)**, 반대 발의 **앞꿈치를 그 옆에 찍는** 동작입니다. 찍은 발에는 체중을 싣지 않습니다. 그래서 그 발이 곧바로 다음 걸음을 시작합니다."
+    },
+    {
+      "kind": "demo",
+      "exerciseId": "b1-demo-60",
+      "caption": "채워진 발자국 ●은 체중이 실린 디딤, 빈 발자국 ○은 터치입니다. 체중 막대가 언제 움직이는지 보세요."
+    },
+    {
+      "kind": "footmap",
+      "exerciseId": "b1-demo-60",
+      "caption": "1번과 3번 발자국만 채워져 있습니다. 2번과 4번은 찍기만 합니다."
+    },
+    {
+      "kind": "stepThrough",
+      "exerciseId": "b1-demo-60",
+      "notes": {
+        "1": "오른발을 오른쪽 옆으로. 체중이 오른발로 넘어갑니다.",
+        "2": "왼발 앞꿈치를 오른발 옆에 찍습니다. 체중은 그대로 오른발.",
+        "3": "찍었던 왼발이 왼쪽 옆으로. 체중이 왼발로 넘어갑니다.",
+        "4": "오른발 앞꿈치를 왼발 옆에 찍습니다. 체중은 그대로 왼발."
+      }
+    },
+    {
+      "kind": "practice",
+      "exerciseId": "b1-loop",
+      "tempoSteps": [
+        60,
+        80,
+        100
+      ],
+      "minLoopsEach": 4
+    },
+    {
+      "kind": "checklist",
+      "items": [
+        "터치한 발에 체중을 싣지 않았나요?",
+        "어깨는 수평을 유지했나요?",
+        "발이 클릭음에 맞춰 닿았나요?"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "mode": "auto",
+      "exerciseId": "b1-loop",
+      "count": 3,
+      "kinds": [
+        "weightFoot",
+        "nextFoot"
+      ]
+    }
+  ]
+}

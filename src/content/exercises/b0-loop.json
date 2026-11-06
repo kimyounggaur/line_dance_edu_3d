@@ -1,0 +1,11 @@
+{
+  "id": "b0-loop",
+  "target": {
+    "kind": "block",
+    "id": "B0-markTime"
+  },
+  "bpm": 60,
+  "loop": true,
+  "countInBeats": 4,
+  "startFoot": "R"
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "B0-markTime",
+    "nameKo": "제자리 걷기 8카운트",
+    "figures": [
+      "markTime",
+      "markTime",
+      "markTime",
+      "markTime"
+    ],
+    "level": 0
+  },
+  {
+    "id": "B1-stepTouch",
+    "nameKo": "스텝터치 × 4",
+    "figures": [
+      "sideTouch",
+      "sideTouch",
+      "sideTouch",
+      "sideTouch"
+    ],
+    "level": 1
+  },
+  {
+    "id": "B2-vine",
+    "nameKo": "그레이프바인 오른쪽 · 왼쪽",
+    "figures": [
+      "vine",
+      "vine"
+    ],
+    "level": 2
+  },
+  {
+    "id": "B3-jazzBox",
+    "nameKo": "재즈박스 × 2",
+    "figures": [
+      "jazzBox",
+      "jazzBox"
+    ],
+    "level": 3
+  },
+  {
+    "id": "B4-vStep",
+    "nameKo": "V스텝 × 2",
+    "figures": [
+      "vStep",
+      "vStep"
+    ],
+    "level": 4
+  },
+  {
+    "id": "B5-coaster",
+    "nameKo": "코스터스텝 드릴",
+    "figures": [
+      "coaster",
+      "markTime",
+      "coaster",
+      "markTime"
+    ],
+    "level": 5
+  },
+  {
+    "id": "B6-vineQuarter",
+    "nameKo": "그레이프바인 + 1/4턴 그레이프바인",
+    "figures": [
+      "vine",
+      "vineQuarter"
+    ],
+    "level": 7
+  },
+  {
+    "id": "B7-jazzQuarter",
+    "nameKo": "재즈박스 + 1/4턴 재즈박스",
+    "figures": [
+      "jazzBox",
+      "jazzBoxQuarter"
+    ],
+    "level": 7
+  }
+]

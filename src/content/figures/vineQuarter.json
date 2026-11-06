@@ -1,0 +1,96 @@
+{
+  "id": "vineQuarter",
+  "nameKo": "그레이프바인 1/4턴",
+  "nameEn": "Grapevine 1/4 turn",
+  "aliases": [
+    "바인 1/4턴",
+    "vine quarter turn"
+  ],
+  "beats": 4,
+  "mirrorable": true,
+  "level": 7,
+  "tags": [
+    "travel-side",
+    "turn"
+  ],
+  "events": [
+    {
+      "t": 0,
+      "foot": "R",
+      "action": "step",
+      "to": [
+        1.2,
+        0
+      ],
+      "dir": "side",
+      "cueKo": "옆",
+      "cueEn": "side",
+      "descKo": "{M}을 {MD} 옆으로 딛는다"
+    },
+    {
+      "t": 1,
+      "foot": "L",
+      "action": "step",
+      "to": [
+        1.5,
+        -0.75
+      ],
+      "dir": "crossBehind",
+      "cueKo": "뒤",
+      "cueEn": "behind",
+      "descKo": "{M}을 {S} 뒤로 교차해 딛는다"
+    },
+    {
+      "t": 2,
+      "foot": "R",
+      "action": "step",
+      "to": [
+        2.4,
+        -0.75
+      ],
+      "dir": "forward",
+      "turn": 90,
+      "cueKo": "턴",
+      "cueEn": "quarter turn",
+      "descKo": "{TD}으로 1/4 돌며 {M}을 앞으로 딛는다"
+    },
+    {
+      "t": 3,
+      "foot": "L",
+      "action": "touch",
+      "to": [
+        2.4,
+        -0.35
+      ],
+      "dir": "together",
+      "cueKo": "터치",
+      "cueEn": "touch",
+      "descKo": "{M} 앞꿈치를 {S} 옆에 찍는다(체중 없음)"
+    }
+  ],
+  "evidence": "strong",
+  "sources": [
+    {
+      "sourceId": "vm-stepvideos",
+      "ref": "기초 강습 6번 Grapevine 1/4 turn",
+      "supports": [
+        "name",
+        "order"
+      ]
+    },
+    {
+      "sourceId": "vm-programme",
+      "ref": "커리큘럼 7번 (Grapevine with 1/4 turn)",
+      "supports": [
+        "usage"
+      ]
+    }
+  ],
+  "verification": {
+    "status": "draft",
+    "openQuestions": [
+      "회전 시점과 마무리 — 3카운트에 회전, 4카운트 터치 / 스커프 / 히치 (현재: 3카운트 회전 · 터치)",
+      "회전하는 걸음의 착지 자리가 자연스러운가"
+    ]
+  }
+}

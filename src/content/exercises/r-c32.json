@@ -1,0 +1,14 @@
+{
+  "id": "r-c32",
+  "target": {
+    "kind": "routine",
+    "id": "R-C32"
+  },
+  "bpm": 72,
+  "loop": true,
+  "countInBeats": 8,
+  "startFoot": "R",
+  "highlight": [
+    "and"
+  ]
+}

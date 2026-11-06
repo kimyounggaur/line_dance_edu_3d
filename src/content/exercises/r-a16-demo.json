@@ -1,0 +1,12 @@
+{
+  "id": "r-a16-demo",
+  "target": {
+    "kind": "routine",
+    "id": "R-A16"
+  },
+  "bpm": 72,
+  "loop": false,
+  "countInBeats": 8,
+  "startFoot": "R",
+  "repeats": 1
+}

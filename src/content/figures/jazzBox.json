@@ -1,0 +1,114 @@
+{
+  "id": "jazzBox",
+  "nameKo": "재즈박스",
+  "nameEn": "Jazz Box",
+  "aliases": [
+    "재즈 스퀘어",
+    "jazz square",
+    "jazz box"
+  ],
+  "beats": 4,
+  "mirrorable": true,
+  "level": 3,
+  "tags": [
+    "in-place",
+    "cross"
+  ],
+  "events": [
+    {
+      "t": 0,
+      "foot": "R",
+      "action": "step",
+      "to": [
+        -0.5,
+        0.75
+      ],
+      "dir": "crossFront",
+      "cueKo": "크로스",
+      "cueEn": "cross",
+      "descKo": "{M}을 {S} 앞으로 교차해 딛는다"
+    },
+    {
+      "t": 1,
+      "foot": "L",
+      "action": "step",
+      "to": [
+        -0.2,
+        -0.4
+      ],
+      "dir": "back",
+      "cueKo": "뒤",
+      "cueEn": "back",
+      "descKo": "{M}을 뒤로 딛는다"
+    },
+    {
+      "t": 2,
+      "foot": "R",
+      "action": "step",
+      "to": [
+        0.3,
+        -0.4
+      ],
+      "dir": "side",
+      "cueKo": "옆",
+      "cueEn": "side",
+      "descKo": "{M}을 {MD} 옆으로 딛는다"
+    },
+    {
+      "t": 3,
+      "foot": "L",
+      "action": "step",
+      "to": [
+        -0.2,
+        0
+      ],
+      "dir": "forward",
+      "cueKo": "앞",
+      "cueEn": "forward",
+      "descKo": "{M}을 앞으로 디뎌 제자리로 돌아온다"
+    }
+  ],
+  "evidence": "strong",
+  "sources": [
+    {
+      "sourceId": "ltl-glossary",
+      "ref": "용어표 16행 JAZZ BOX (4박, cross · back · side)",
+      "supports": [
+        "name",
+        "beats",
+        "direction",
+        "order"
+      ]
+    },
+    {
+      "sourceId": "vm-stepvideos",
+      "ref": "기초 강습 7번 Jazz Box",
+      "supports": [
+        "name",
+        "order"
+      ]
+    },
+    {
+      "sourceId": "vm-programme",
+      "ref": "커리큘럼 8번 (2 wall dance, Jazz box)",
+      "supports": [
+        "usage"
+      ]
+    },
+    {
+      "sourceId": "ck-beginner-list",
+      "ref": "키워드 jazz box 3/20곡",
+      "supports": [
+        "usage"
+      ]
+    }
+  ],
+  "verification": {
+    "status": "draft",
+    "openQuestions": [
+      "4카운트 기본값 — '앞으로'(현재값, 제자리 반복에 유리) / '모으기'",
+      "교차가 첫 걸음인 형태가 교재와 맞는가 (앞으로 먼저 딛고 2카운트에 교차하는 정의도 있음)",
+      "교차의 깊이와 상자의 크기 (현재: 앞 0.75u · 너머 0.3u, 뒤 0.4u)"
+    ]
+  }
+}
