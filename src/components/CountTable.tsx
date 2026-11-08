@@ -28,7 +28,8 @@ export function CountTable({
   className?: string;
 }) {
   return (
-    <div className={cn('overflow-x-auto rounded-[10px] border border-line', className)}>
+    // 좁은 화면에서는 가로로 스크롤된다 → 키보드로도 스크롤할 수 있게 초점을 받는다(WCAG 2.1.1)
+    <div role="region" aria-label="카운트별 표" tabIndex={0} className={cn('overflow-x-auto rounded-[10px] border border-line focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink', className)}>
       <table className="w-full min-w-[860px] border-collapse text-left text-[14px]">
         <thead className="bg-paper text-[13px] text-ink-2">
           <tr>

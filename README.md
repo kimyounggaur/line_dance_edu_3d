@@ -22,7 +22,7 @@ npm run build        # 정적 사이트 → out/  (Vercel 등 정적 호스팅)
 | `/review` | 검수 모드: 카운트별 표 · 수치 조정 · 즉시 재검증 · 메모 · JSON 내보내기 |
 | `/settings`, `/help`, `/sources` | 설정(지연 보정 · 보폭) · 도움말 · 출처와 이용 안내 |
 
-단축키: `Space` 재생/일시정지 · `Esc` 정지 · `←/→` 한 카운트씩 · `↑/↓` BPM ±4 · `L` 루프 · `1~5` 시점 · `M` 음소거 · `F` 발 위치도 크게
+단축키: `Space` 재생/일시정지 · `Esc` 정지 · `←/→` 한 카운트씩 · `↑/↓` BPM ±4 · `L` 루프 · `1~5` 시점 · `M` 음소거 · `F` 발 위치도 크게 · `Z` 발 확대
 
 ## 기술
 Next.js 15 (App Router, 정적 내보내기) · React 19 · TypeScript · three.js + @react-three/fiber 9 + drei 10 · Tailwind CSS 4 · Radix(shadcn/ui 방식) · Zustand · Web Audio API · Vitest.

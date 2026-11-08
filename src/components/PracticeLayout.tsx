@@ -53,6 +53,7 @@ export function PracticeLayout(p: PracticeLayoutProps) {
       view: (n: number) => setSetting('view', VIEW_OPTIONS[n - 1].value),
       mute: () => player.setMuted(!muted),
       bigMap: () => setBigMap((v) => !v),
+      closeUp: () => setSetting('closeUp', !useSettings.getState().settings.closeUp),
     }),
     [controls, setSetting, muted],
   );

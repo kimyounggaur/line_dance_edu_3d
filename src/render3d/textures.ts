@@ -9,10 +9,43 @@ export const COLORS = {
   pelvis: '#16A34A',
   ink: '#172033',
   floor: '#E5E8ED',
-  grid: '#C3CAD4',
+  grid: '#B3BBC7',
   mannequin: '#C8CDD6',
   mannequinDark: '#9EA5B2',
 };
+
+/** 마네킹 색 (8.6). 다리는 신발과 같은 계열 — 체중이 0이면 연하게(light), 다 실리면 진하게(full) */
+export const BODY_COLORS = {
+  skin: '#E1E4EA',
+  hair: '#3A4354',
+  shirtFront: '#B9C3D3',
+  shirtBack: '#76839A',
+  sleeve: '#8592A8',
+  shorts: '#58637A',
+  legLight: { L: '#C3D1F0', R: '#F3D3C1' },
+  legFull: { L: '#5D84E2', R: '#EC8A55' },
+  ghost: '#7A879C',
+};
+
+/** 가운데가 진하고 가장자리로 갈수록 사라지는 원 (접지 그림자) */
+let blob: THREE.CanvasTexture | null = null;
+export function blobTexture(): THREE.CanvasTexture {
+  if (blob) return blob;
+  const s = 128;
+  const canvas = document.createElement('canvas');
+  canvas.width = s;
+  canvas.height = s;
+  const ctx = canvas.getContext('2d')!;
+  const g = ctx.createRadialGradient(s / 2, s / 2, 0, s / 2, s / 2, s / 2);
+  g.addColorStop(0, 'rgba(255,255,255,1)');
+  g.addColorStop(0.5, 'rgba(255,255,255,0.7)');
+  g.addColorStop(1, 'rgba(255,255,255,0)');
+  ctx.fillStyle = g;
+  ctx.fillRect(0, 0, s, s);
+  blob = new THREE.CanvasTexture(canvas);
+  blob.colorSpace = THREE.SRGBColorSpace;
+  return blob;
+}
 
 const cache = new Map<string, THREE.CanvasTexture>();
 

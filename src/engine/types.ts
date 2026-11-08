@@ -242,6 +242,8 @@ export interface Settings {
   unitM: number;
   audioOffsetMs: number;
   arms: 'swing' | 'hips';
+  closeUp: boolean; // 발 확대: 카메라를 낮추고 가까이 (6.5)
+  ghost: 'paused' | 'always' | 'off'; // 다음 카운트 자세를 반투명으로 겹쳐 보기 (6.6)
 }
 
 export interface LessonProgress {

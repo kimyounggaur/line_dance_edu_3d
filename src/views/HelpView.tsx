@@ -32,6 +32,7 @@ const KEYS: [string, string][] = [
   ['1 ~ 5', '시점: 뒤에서 · 거울 · 위에서 · 옆에서 · 자유'],
   ['M', '음소거'],
   ['F', '발 위치도 크게 보기'],
+  ['Z', '발 확대 켜기 / 끄기'],
 ];
 
 export function HelpView() {
@@ -66,6 +67,18 @@ export function HelpView() {
               <span>초록 점과 선은 골반(몸 중심)의 자리와 최근 2박의 궤적.</span>
             </li>
             <li className="flex items-center gap-3">
+              <span className="inline-flex w-12 justify-center" aria-hidden>
+                <span className="h-8 w-5 rounded-full border-2 border-ink/40 bg-ink/10" />
+              </span>
+              <span>반투명한 다리 · 신발은 다음 카운트의 자세입니다(▷를 누르면 갈 자리). 보기 옵션에서 ‘항상’ 또는 ‘끔’으로 바꿀 수 있습니다.</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="w-12 text-center text-xl font-bold" aria-hidden>
+                ↔
+              </span>
+              <span>3D 무대를 좌우로 끌면 동작을 앞뒤로 천천히 훑어봅니다(무대 폭 = 8박). 재생 중이면 멈춥니다.</span>
+            </li>
+            <li className="flex items-center gap-3">
               <span className="w-12 text-center font-display text-2xl">1 5</span>
               <span>카운트 바의 1과 5는 굵게. 1 · 5카운트의 클릭음은 높고 깁니다.</span>
             </li>
@@ -77,7 +90,8 @@ export function HelpView() {
           <h3 className="mb-2 mt-6 text-lg font-bold">시점</h3>
           <p className="text-ink-2">
             <strong>뒤에서</strong>(기본)는 내 좌우가 아바타의 좌우와 같아 그대로 따라 하면 됩니다. <strong>거울</strong>은 아바타가 나를 마주 보고, 화면 오른쪽의 주황 R 발이 움직이면 내 오른발을 움직입니다(거울 앞에서 추는 것과 같습니다).
-            <strong> 위에서</strong>는 발 위치도와 같은 구도, <strong>옆에서</strong>는 앞뒤 이동과 보폭을 볼 때 씁니다.
+            <strong> 위에서</strong>는 발 위치도와 같은 구도, <strong>옆에서</strong>는 앞뒤 이동과 보폭을 볼 때 씁니다. <strong>발 확대</strong>를 켜면 카메라가 낮아지고 가까워져 발이
+            크게 보입니다.
           </p>
         </section>
         <section className="flex flex-col gap-6">

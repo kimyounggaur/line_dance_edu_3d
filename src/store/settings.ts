@@ -19,12 +19,18 @@ export const DEFAULT_SETTINGS: Settings = {
   unitM: DEFAULT_UNIT_M,
   audioOffsetMs: 0,
   arms: 'swing',
+  closeUp: false,
+  ghost: 'paused',
 };
 
-function sanitize(s: Partial<Settings>): Settings {
+const GHOST_MODES: Settings['ghost'][] = ['paused', 'always', 'off'];
+
+export function sanitize(s: Partial<Settings>): Settings {
   const merged: Settings = { ...DEFAULT_SETTINGS, ...s, layers: { ...DEFAULT_SETTINGS.layers, ...(s.layers ?? {}) } };
   if (!(merged.unitM >= UNIT_RANGE[0] && merged.unitM <= UNIT_RANGE[1])) merged.unitM = DEFAULT_UNIT_M;
   if (!Number.isFinite(merged.audioOffsetMs)) merged.audioOffsetMs = 0;
+  if (!GHOST_MODES.includes(merged.ghost)) merged.ghost = DEFAULT_SETTINGS.ghost;
+  merged.closeUp = merged.closeUp === true;
   return merged;
 }
 

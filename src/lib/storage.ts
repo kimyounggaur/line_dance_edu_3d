@@ -25,6 +25,7 @@ export const KEYS = {
   progress: 'ld.progress.v1',
   review: 'ld.review.v1',
   last: 'ld.last.v1',
+  hints: 'ld.hints.v1', // 한 번 보여 주면 되는 안내 (예: 무대 끌기)
 } as const;
 
 export function loadJSON<T>(key: string, fallback: T): T {

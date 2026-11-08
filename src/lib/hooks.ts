@@ -48,9 +48,10 @@ export interface ShortcutHandlers {
   view?(n: number): void;
   mute?(): void;
   bigMap?(): void;
+  closeUp?(): void;
 }
 
-/** 6.8 키보드 단축키: Space · Esc · ←/→ · ↑/↓ · L · 1~5 · M · F */
+/** 6.8 키보드 단축키: Space · Esc · ←/→ · ↑/↓ · L · 1~5 · M · F · Z */
 export function useShortcuts(h: ShortcutHandlers, enabled = true) {
   useEffect(() => {
     if (!enabled) return;
@@ -85,6 +86,7 @@ export function useShortcuts(h: ShortcutHandlers, enabled = true) {
       } else if (k === 'l' || k === 'L') h.loop?.();
       else if (k === 'm' || k === 'M') h.mute?.();
       else if (k === 'f' || k === 'F') h.bigMap?.();
+      else if (k === 'z' || k === 'Z') h.closeUp?.();
       else if (/^[1-5]$/.test(k)) h.view?.(Number(k));
     };
     window.addEventListener('keydown', onKey);
